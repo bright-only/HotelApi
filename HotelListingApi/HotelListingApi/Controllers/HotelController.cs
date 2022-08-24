@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
+using HotelListingApi.Core.DTOs;
+using HotelListingApi.Core.IRepository;
+using HotelListingApi.Core.Models;
 using HotelListingApi.Data;
-using HotelListingApi.IRepository;
-using HotelListingApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -23,7 +23,7 @@ namespace HotelListingApi.Controllers
     {
       _unitofwork = unitofwork;
       _mapper = mapper;
-      _logger = logger; 
+      _logger = logger;
     }
 
 
@@ -71,7 +71,7 @@ namespace HotelListingApi.Controllers
       var hotel = _mapper.Map<Hotel>(hotelDTO);
       await _unitofwork.Hotels.Insert(hotel);
       await _unitofwork.Save();
-      return CreatedAtRoute("GetHotel", new {id=hotel.HotelId},hotel);
+      return CreatedAtRoute("GetHotel", new { id = hotel.HotelId }, hotel);
     }
 
 
@@ -82,13 +82,13 @@ namespace HotelListingApi.Controllers
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> UpdateHotel(int id, [FromBody] UpdateHotelDTO hotelDTO)
     {
-      if(!ModelState.IsValid || id<1)
+      if(!ModelState.IsValid || id < 1)
       {
         _logger.LogError($"INVALID UPDATE ATTEMPT IN {nameof(UpdateHotel)}");
         return BadRequest(ModelState);
       }
       var hotel = await _unitofwork.Hotels.Get(q => q.HotelId == id);
-      if(hotel==null)
+      if(hotel == null)
       {
         _logger.LogError($"INVALID UPDATE ATTEMPT IN {nameof(UpdateHotel)}");
         return BadRequest("SUBMITTED DATA IS INVALID");
