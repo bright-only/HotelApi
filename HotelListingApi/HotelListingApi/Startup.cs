@@ -1,12 +1,10 @@
-using HotelListingApi.Configurations;
+using HotelListingApi.Core;
+using HotelListingApi.Core.Configurations;
+using HotelListingApi.Core.IRepository;
+using HotelListingApi.Core.Services;
 using HotelListingApi.Data;
-using HotelListingApi.IRepository;
-using HotelListingApi.Repository;
-using HotelListingApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -46,7 +44,7 @@ namespace HotelListingApi
           .AllowAnyMethod()
           .AllowAnyHeader());
       });
-      services.AddAutoMapper(typeof(MapperInitializers));
+      services.ConfigureAutoMapper();
       services.AddTransient<IUnitOfWork, UnitOfWork>();
       services.AddScoped<IAuthManager, AuthManager>();
       AddSwaggerDoc(services);
