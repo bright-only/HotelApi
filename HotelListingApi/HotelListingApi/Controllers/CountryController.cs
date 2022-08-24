@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
 using HotelListingApi.Data;
-using HotelListingApi.IRepository;
-using HotelListingApi.Models;
+using HotelListingApi.Core.IRepository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using HotelListingApi.Core.DTOs;
+using HotelListingApi.Core.Models;
 
 namespace HotelListingApi.Controllers
 {

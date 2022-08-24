@@ -1,0 +1,15 @@
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\bin\Debug\net5.0\HotelListingApi.Data.deps.json
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\bin\Debug\net5.0\HotelListingApi.Data.dll
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\bin\Debug\net5.0\HotelListingApi.Data.pdb
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.csproj.AssemblyReference.cache
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.AssemblyInfoInputs.cache
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.AssemblyInfo.cs
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.csproj.CoreCompileInputs.cache
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.dll
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\refint\HotelListingApi.Data.dll
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.pdb
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\ref\HotelListingApi.Data.dll
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\bin\Debug\net5.0\HotelListingApi.Data.runtimeconfig.json
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\bin\Debug\net5.0\HotelListingApi.Data.runtimeconfig.dev.json
+C:\Users\mr imole\Source\Repos\HotelApi\HotelListingApi\HotelListingApi.Data\obj\Debug\net5.0\HotelListingApi.Data.genruntimeconfig.cache

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
+using HotelListingApi.Core.DTOs;
+using HotelListingApi.Core.Services;
 using HotelListingApi.Data;
-using HotelListingApi.Models;
-using HotelListingApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
